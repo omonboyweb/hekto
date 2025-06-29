@@ -343,3 +343,18 @@ header {
 .tabActive {
   color: red;
 }
+
+.addWish {
+  color: rebeccapurple;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.wishActive {
+  background-color: red;
+  color: #fff;
+  border: 1px solid red;
+}
