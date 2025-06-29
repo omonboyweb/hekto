@@ -9,25 +9,43 @@ export const products = [
         title: "New Arrival",
         product: [
             {
+                id: 1,
                 name: "Comfort Handy Craft",
-                img: "https://ibb.co/Mxvr8kcq",
+                img: "https://olcha.uz/image/original/products//supplier/stores/27263/j501%2Fj501-photoroom-1.jpg",
                 priceSale: 42.00,
                 totalPrice: 65.00
             }, {
+                id: 2,
                 name: "Comfort Handy Craft  ",
-                img: "https://ibb.co/JRgsY5TW",
+                img: "https://olcha.uz/image/original/products//supplier/stores/27263/j501%2Fj501-photoroom-1.jpg",
                 priceSale: 42.00,
                 totalPrice: 65.00
             },
             {
+                id: 3,
                 name: "Comfort Handy Craft  ",
-                img: "https://ibb.co/kgwdWNxm",
+                img: "https://olcha.uz/image/original/products//supplier/stores/27263/j501%2Fj501-photoroom-1.jpg",
                 priceSale: 42.00,
                 totalPrice: 65.00
             },
             {
+                id: 4,
                 name: "Comfort Handy Craft  ",
-                img: "https://ibb.co/zT3C782R",
+                img: "https://olcha.uz/image/original/products//supplier/stores/27263/j501%2Fj501-photoroom-1.jpg",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 5,
+                name: "Comfort Handy Craft",
+                img: "https://olcha.uz/image/original/products//supplier/stores/27263/j501%2Fj501-photoroom-1.jpg",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 6,
+                name: "Comfort Handy Craft",
+                img: "https://olcha.uz/image/original/products//supplier/stores/27263/j501%2Fj501-photoroom-1.jpg",
                 priceSale: 42.00,
                 totalPrice: 65.00
             }
@@ -37,8 +55,42 @@ export const products = [
         title: "Best Seller",
         product: [
             {
+                id: 1,
                 name: "Comfort Handy Craft  ",
-                img: "https://ibb.co/JRgsY5TW",
+                img: "https://www.mebelchi.shop/uploads/products/32200f78-ffa9-4b10-afa6-71bd3d9d3499.jpg",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 2,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/973cf14f-25e1-4b9a-b90a-af31ba5ed25d.png",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 3,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/973cf14f-25e1-4b9a-b90a-af31ba5ed25d.png",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 4,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/973cf14f-25e1-4b9a-b90a-af31ba5ed25d.png",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            }, {
+                id: 5,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/32200f78-ffa9-4b10-afa6-71bd3d9d3499.jpg",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            }, {
+                id: 2,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/973cf14f-25e1-4b9a-b90a-af31ba5ed25d.png",
                 priceSale: 42.00,
                 totalPrice: 65.00
             }
@@ -48,8 +100,43 @@ export const products = [
         title: "Featured",
         product: [
             {
+                id: 1,
+                name: "Comfort Handy Craft",
+                img: "https://olcha.uz/image/original/products//supplier/stores/27263/j501%2Fj501-photoroom-1.jpg",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            }, {
+                id: 2,
+                name: "Comfort Handy Craft  ",
+                img: "https://ibb.co/JRgsY5TW",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 3,
                 name: "Comfort Handy Craft  ",
                 img: "https://ibb.co/kgwdWNxm",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 4,
+                name: "Comfort Handy Craft  ",
+                img: "https://ibb.co/zT3C782R",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 5,
+                name: "Comfort Handy Craft",
+                img: "https://ibb.co/SX3sdYXt",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 6,
+                name: "Comfort Handy Craft",
+                img: "https://ibb.co/HDYyRPfx",
                 priceSale: 42.00,
                 totalPrice: 65.00
             }
@@ -59,11 +146,47 @@ export const products = [
         title: "Special Offer",
         product: [
             {
+                id: 1,
                 name: "Comfort Handy Craft  ",
-                img: "https://ibb.co/zT3C782R",
+                img: "https://www.mebelchi.shop/uploads/products/32200f78-ffa9-4b10-afa6-71bd3d9d3499.jpg",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 2,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/973cf14f-25e1-4b9a-b90a-af31ba5ed25d.png",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 3,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/973cf14f-25e1-4b9a-b90a-af31ba5ed25d.png",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            },
+            {
+                id: 4,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/973cf14f-25e1-4b9a-b90a-af31ba5ed25d.png",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            }, {
+                id: 5,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/32200f78-ffa9-4b10-afa6-71bd3d9d3499.jpg",
+                priceSale: 42.00,
+                totalPrice: 65.00
+            }, {
+                id: 2,
+                name: "Comfort Handy Craft  ",
+                img: "https://www.mebelchi.shop/uploads/products/973cf14f-25e1-4b9a-b90a-af31ba5ed25d.png",
                 priceSale: 42.00,
                 totalPrice: 65.00
             }
         ]
-    }
+    },
 ];
+
+

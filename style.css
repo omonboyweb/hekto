@@ -11,6 +11,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   font-family: var(--font-family);
+  background-color: var(--bg-shade);
 }
 
 :root {
@@ -29,6 +30,25 @@ body {
   --sub-text-color: #8a8fb9;
   --page-button-color: #e0d3f5;
   --pink: #fb2e86;
+  --color-text: #0d0e43;
+}
+
+.dark {
+  --bg-shade: #1f1f22;
+  --grey-text: rgba(248, 249, 255);
+  --accent: #fb2e86;
+  --white: #ffffff;
+  --ugsadug: #9f63b5;
+  --text: #ffffff;
+  --sky-blue: #00c1fe;
+  --section-hover: #ebebeb;
+  --sale-tage-coloe: #0d0d0d;
+  --price-tag-color: #fb2448;
+  --violet: #7e33e0;
+  --sub-text-color: #c8ccf0;
+  --page-button-color: #2c2c2c;
+  --pink: #fb2e86;
+  --color-text: #e4e4e4;
 }
 
 ul,
@@ -109,7 +129,7 @@ header {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 34px;
-  color: #0d0e43;
+  color: var(--color-text);
 }
 
 .nav__block-list {
@@ -125,7 +145,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 125%;
-  color: #0d0e43;
+  color: var(--color-text);
   cursor: pointer;
 }
 
@@ -146,12 +166,12 @@ header {
   font-weight: 400;
   font-size: 20px;
   line-height: 125%;
-  color: #0d0e43;
+  color: var(--color-text);
 }
 
 /* Hero  */
 .hero {
-  background: #f2f0ff;
+  background: var(--bg-shade);
   padding-top: 39px;
   padding-bottom: 36px;
 }
@@ -178,7 +198,7 @@ header {
   font-weight: 700;
   font-size: 53px;
   letter-spacing: 0.01em;
-  color: #000;
+  color: var(--color-text);
   margin-bottom: 12px;
 }
 
@@ -211,7 +231,7 @@ header {
   margin-bottom: 48px;
   font-weight: 700;
   font-size: 42px;
-  color: #1a0b5b;
+  color: var(--color-text);
 }
 .product__block {
   display: flex;
@@ -291,6 +311,35 @@ header {
 
 .leates__card {
   background: #f7f7f7;
-  max-width: 360px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.leates__tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.leates__card-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.sale {
+  color: red;
+  text-decoration: line-through;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.category__item {
+  cursor: pointer;
+}
+
+.tabActive {
+  color: red;
+}
